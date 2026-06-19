@@ -1,0 +1,414 @@
+#wpcontent {
+    padding-left: 0 !important;
+}
+
+/* Base */
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.box-shadow {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.p30 {
+    padding: 30px;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.m50 {
+    margin: 50px 0;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.border {
+    border: 1px solid #e0e0e0;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+    color: #1e1e1e;
+}
+
+span.dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #9d9d9d;
+    border-radius: 50%;
+}
+
+.log-btn {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.log-btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a.log-btn span {
+    font-size: 24px;
+}
+
+/* Header */
+.header {
+    display: flex;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+}
+
+.logo-title {
+    font-size: 20px;
+}
+
+.logo-area {
+    position: relative;
+    margin-right: 10px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0 14px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4f34c5;
+}
+
+.nav-link:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.pro-btn {
+    text-decoration: none;
+    background: #4f34c5;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.pro-btn:hover {
+    color: #fff;
+}
+
+.gp-card {
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.gp-card .icon {
+    margin-bottom: 10px;
+}
+
+.gp-card .icon span.dashicons {
+    font-size: 20px;
+    color: #4f34c5;
+}
+
+.support-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.support-desc {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px 0;
+}
+
+a.support-link {
+    text-decoration: none;
+    border-bottom: 1px solid #4f34c5;
+    color: #4f34c5;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.support-link:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+}
+
+.video-area {
+    width: 70%;
+    flex: 1;
+}
+
+.our-products {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.video-area iframe {
+    width: 100% !important;
+    height: 380px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+/* others */
+
+.gutslider-admin-header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1e1e1e;
+}
+
+.gutslider-subtitle {
+    font-size: 16px;
+    color: #757575;
+    margin: 0;
+}
+
+.gutslider-blocks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gutslider-block-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 24px;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.gutslider-block-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.gutslider-block-card.pro-block {
+    border-color: #9b59b6;
+    background: linear-gradient(135deg, #fff 0%, #f8f5fb 100%);
+}
+
+.pro-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.free-badge {
+    background: #ddd;
+    color: #000;
+}
+
+.block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.block-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #1e1e1e;
+}
+
+.block-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 16px 0;
+    min-height: 48px;
+}
+
+.block-footer {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.demo-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #2271b1;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.demo-link:hover {
+    color: #135e96;
+}
+
+.demo-link .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Toggle Switch Styles */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.3s;
+    border-radius: 24px;
+}
+
+.toggle-slider:before {
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background-color: #2271b1;
+}
+
+.toggle-switch input:checked + .toggle-slider:before {
+    transform: translateX(24px);
+}
+
+.toggle-switch input:disabled + .toggle-slider {
+    background-color: #e5e5e5;
+    cursor: not-allowed;
+}
+
+.toggle-switch input:disabled + .toggle-slider:before {
+    background-color: #f5f5f5;
+}
+
+.gutslider-notification {
+    position: fixed !important;
+    right: 0;
+    min-width: 200px;
+    top: 120px;
+    padding: 15px;
+}
+
+.gutslider-notification button {
+    padding: 10px;
+    margin: 0 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gutslider-blocks-grid {
+        grid-template-columns: 1fr;
+    }
+}

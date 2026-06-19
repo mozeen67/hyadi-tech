@@ -1,0 +1,6 @@
+# No subir configuraciones locales de base de datos
+db_data/
+
+# Opcional: si quieres que Railway instale los plugins desde cero, 
+# podrías ignorar carpetas pesadas, pero para WordPress 
+# suele ser mejor subir wp-content para mantener el diseño.

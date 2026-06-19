@@ -1,0 +1,75 @@
+# Translation of Plugins - Templately – Elementor &amp; Gutenberg Template Library: 6500+ Free &amp; Pro Ready Templates And Cloud! - Stable (latest release) in Spanish (Mexico)
+# This file is distributed under the same license as the Plugins - Templately – Elementor &amp; Gutenberg Template Library: 6500+ Free &amp; Pro Ready Templates And Cloud! - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-19 13:08:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es_MX\n"
+"Project-Id-Version: Plugins - Templately – Elementor &amp; Gutenberg Template Library: 6500+ Free &amp; Pro Ready Templates And Cloud! - Stable (latest release)\n"
+
+#. Description of the plugin
+#: templately.php
+msgid "The Best Templates Cloud for Elementor & Gutenberg. Get access to stunning templates, WorkSpace, Cloud Library & many more."
+msgstr "La mejor nube de plantillas para Elementor y Gutenberg. Accede a impresionantes plantillas, espacio de trabajo, biblioteca en la nube y mucho más."
+
+#: includes/Utils/Installer.php:113
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "No se ha podido conectar al sistema de archivos. Por favor, confirma tus credenciales."
+
+#: includes/API/Dependencies.php:122
+msgid "You have the plugin installed."
+msgstr "Tienes el plugin instalado."
+
+#: views/header.php:10
+msgid "Version"
+msgstr "Versión"
+
+#: includes/Core/Admin.php:551
+msgid "plugin to be installed and activated. Please install Elementor to continue."
+msgstr "para ser instalado y activado. Por favor, instala Elementor para continuar."
+
+#: includes/API/Dependencies.php:92 includes/Core/Admin.php:550
+#: includes/Core/Importer/Runners/ElementorContent.php:17
+#: assets/js/templately.js:1
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/Core/Admin.php:549
+msgid "requires"
+msgstr "requiere"
+
+#: includes/Core/Platform/Elementor.php:193
+msgid "Successfully Deleted."
+msgstr "Borrado correctamente."
+
+#: includes/API/Login.php:97 includes/API/SignUp.php:40
+msgid "Make sure you have given a valid email address."
+msgstr "Asegúrate de haber indicado una dirección de correo electrónico válida."
+
+#: includes/API/Items.php:427 includes/Builder/Types/BaseTemplate.php:227
+#: includes/Utils/Base.php:31 includes/Utils/Base.php:42
+#: assets/js/templately.js:1
+msgid "Something went wrong."
+msgstr "Algo salió mal."
+
+#. Author URI of the plugin
+#: templately.php
+msgid "https://templately.com/"
+msgstr "https://templately.com/"
+
+#. Plugin URI of the plugin
+#: templately.php
+msgid "https://templately.com"
+msgstr "https://templately.com"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: templately.php includes/Core/Admin.php:548
+#: includes/Core/Platform/Gutenberg.php:84 views/header.php:7
+#: assets/js/elementor.js:1
+msgid "Templately"
+msgstr "Templately"
